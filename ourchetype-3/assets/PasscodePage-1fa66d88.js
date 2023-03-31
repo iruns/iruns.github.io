@@ -1,4 +1,4 @@
-import{d as h,A as s,b as p,l as o,o as k,a as b,e as m,f as r,t as l,u as n,g as i,w as v,B as f,n as S,h as B,_ as P}from"./index-f3e9b7d0.js";import{L as x}from"./LogoSet-cf8903f5.js";const w={class:"chunk-1"},y={class:"chunk-2"},z=h({__name:"PasscodePage",props:{area:{default:s.Persona}},setup(g){const c=g,_=p();let t=o(),u=o(`Selamat
+import{d as h,A as s,b as p,l as o,o as k,a as b,e as m,f as r,t as l,u as n,g as i,w as v,B as f,n as S,h as B,_ as P}from"./index-3b593bce.js";import{L as x}from"./LogoSet-3a5c240c.js";const w={class:"chunk-1"},y={class:"chunk-2"},z=h({__name:"PasscodePage",props:{area:{default:s.Persona}},setup(g){const c=g,_=p();let t=o(),u=o(`Selamat
 Datang di`),e=o(void 0),d=o(`Bacalah instruksi
 di ruangan, lalu
 masukkan passcode`);o("");const a={};switch(t.value="/"+c.area+"/answers",c.area){case s.Persona:t.value+="/0",a.logoBright=!0,a.logoSize=1,e.value="Ruang Terang";break;case s.Shadow:a.bg="dark",a.logoSize=1,e.value="Ruang Bias";break;case s.Self:a.bg="color",a.logoSize=1,e.value="Ruang Cahaya";break;case s.Outro:t.value="/result/{}",a.headerY=.5,a.logoSize=.5,u.value=`Masukan
