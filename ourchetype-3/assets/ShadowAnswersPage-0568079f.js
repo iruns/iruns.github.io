@@ -1,4 +1,0 @@
-import{d as n,b as i,c as l,o as _,a as p,e as u,g as a,u as t,w as b,h,B as w,p as m,k as S,f as d,t as f,_ as g}from"./index-729b2e7b.js";import{A as v}from"./AnswersGrid-370dc2f4.js";import{L as B}from"./LogoSet-d0fdd6b7.js";import"./utils-19f62cb8.js";const c=e=>(m("data-v-9bebba5b"),e=e(),S(),e),x={id:"shadow-answers",class:"full-width center-col under-header"},k=c(()=>d("div",{class:"spacer"},null,-1)),y=c(()=>d("p",null,f(`Pilih simbol
-yang mewakili
-suara-suara
-dirimu`),-1)),A=n({__name:"ShadowAnswersPage",setup(e){const s=i(),o=l(()=>s.state.top_archetypes.shadow);return _(()=>{s.setBGSetting({bg:"dark",logoSize:1})}),(P,I)=>(p(),u("div",x,[k,y,a(v,{src:"shadow/answers.webp",selected:t(o)||void 0,select:r=>{t(s).selectShadow(r)}},null,8,["selected","select"]),a(w,{class:"cta",to:"/area-2/to-area-room",disabled:!t(o)},{default:b(()=>[h(" Pilih ")]),_:1},8,["disabled"]),a(B)]))}});const L=g(A,[["__scopeId","data-v-9bebba5b"]]);export{L as default};
