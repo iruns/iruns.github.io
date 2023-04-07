@@ -1,6 +1,5 @@
 const { src, dest, series } = require('gulp')
 const clean = require('gulp-dest-clean')
-const rimraf = require('gulp-rimraf')
 const run = require('gulp-run')
 
 const source = 'C:/Data/Werk/MoneyMaking/Tujusemesta/Ourchetype/ourchetype-3/ourchetype-3'
