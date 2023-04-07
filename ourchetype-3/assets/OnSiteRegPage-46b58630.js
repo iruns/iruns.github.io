@@ -1,3 +1,0 @@
-import{d as n,b as c,o as _,a as d,e as i,g as t,w as r,h as l,B as p,p as u,l as g,f as a,t as S,_ as h}from"./index-27667974.js";import{L as f}from"./LogoSet-2b760d94.js";import"./SpriteSheetImg-58409440.js";const o=e=>(u("data-v-e7c9038c"),e=e(),g(),e),m={class:"on-site-reg full-width center-col under-header"},B=o(()=>a("div",null,null,-1)),x=o(()=>a("p",null,S(`Silakan
-Daftar dan Bayar
-di lokasi`),-1)),v=n({__name:"OnSiteRegPage",setup(e){const s=c();return _(()=>{s.setBGSetting({headerY:.5,logoSize:.5})}),(k,w)=>(d(),i("div",m,[B,x,t(p,{to:"/intro/to-next-area"},{default:r(()=>[l("Sudah")]),_:1}),t(f)]))}});const N=h(v,[["__scopeId","data-v-e7c9038c"]]);export{N as default};
