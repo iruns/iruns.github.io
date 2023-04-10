@@ -1,4 +1,0 @@
-import{d,b as n,c as l,o as _,a as i,s as p,w as o,g as r,u as a,h as u,B as w,p as h,l as m,f,t as g,_ as S}from"./index-7c10d1c0.js";import{_ as b}from"./PageContainer.vue_vue_type_style_index_0_lang-8fb9e01d.js";import{A as x}from"./AnswersGrid-cb810d13.js";const B=e=>(h("data-v-98316e99"),e=e(),m(),e),v=B(()=>f("p",null,g(`Pilih simbol
-yang mewakili
-suara-suara
-dirimu`),-1)),y=d({__name:"ShadowAnswersPage",setup(e){const s=n(),t=l(()=>s.progress.top_archetypes.shadow);return _(()=>{s.setBGSetting({bg:"dark",logoSize:1})}),(A,P)=>(i(),p(b,{"inner-class":{"shadow-answers full-width center-col under-header":!0}},{default:o(()=>[v,r(x,{src:"shadow-answers.webp",selected:a(t)||void 0,select:c=>{a(s).selectShadow(c)}},null,8,["selected","select"]),r(w,{class:"cta",to:"/area-2/to-next-area",disabled:!a(t)},{default:o(()=>[u(" Pilih ")]),_:1},8,["disabled"])]),_:1}))}});const V=S(y,[["__scopeId","data-v-98316e99"]]);export{V as default};
