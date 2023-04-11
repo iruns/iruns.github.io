@@ -1,3 +1,3 @@
-import{_ as s}from"./PageContainer.vue_vue_type_style_index_0_lang-808c89fe.js";import{d as o,e as n,P as _,o as d,g as c,i as a,h as r,R as i,S as p,p as l,a as u,b as g,W as S,_ as f}from"./base-073e6536.js";const h=e=>(l("data-v-0346ad5b"),e=e(),u(),e),m=h(()=>g("p",null,S(`Silakan
+import{_ as s}from"./PageContainer.vue_vue_type_style_index_0_lang-01072750.js";import{d as o,e as n,P as _,o as d,g as c,i as a,h as r,R as i,S as p,p as l,a as u,b as g,W as S,_ as f}from"./base-ccb28cfa.js";const h=e=>(l("data-v-0346ad5b"),e=e(),u(),e),m=h(()=>g("p",null,S(`Silakan
 Daftar dan Bayar
 di lokasi`),-1)),x=o({__name:"OnSiteRegPage",setup(e){const t=n();return _(()=>{t.setBGSetting({headerY:.5,logoSize:.5})}),(B,b)=>(d(),c(s,{"inner-class":{"on-site-reg full-width center-col under-header":!0}},{default:a(()=>[m,r(p,{to:"/intro/to-next-area"},{default:a(()=>[i("Sudah")]),_:1})]),_:1}))}});const P=f(x,[["__scopeId","data-v-0346ad5b"]]);export{P as default};
