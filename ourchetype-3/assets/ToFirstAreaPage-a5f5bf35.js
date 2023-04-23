@@ -1,4 +1,0 @@
-import{_}from"./PageContainer.vue_vue_type_style_index_0_lang-75afac8b.js";import{e as c,u as r,a2 as i,k as d,w as s,o as l,h as u,a5 as p,g as f,P as g,a4 as h,p as m,b as S,d as a,t as o,_ as v}from"./progress-0ab57a67.js";const t=e=>(m("data-v-5fa5dce5"),e=e(),S(),e),P=t(()=>a("div",null,null,-1)),k=t(()=>a("p",null,o(`Sudah selesai
-beli tiket?`),-1)),x=t(()=>a("p",null,o(`Silakan
-masuk ke
-Ruang Terang`),-1)),B=t(()=>a("div",null,null,-1)),T=c({__name:"ToFirstAreaPage",setup(e){const n=r();return i(()=>{n.setBGSetting({headerY:.5,logoSize:.5})}),(y,w)=>(l(),d(_,{"inner-class":{"on-site-reg full-width center-col under-header":!0}},{default:s(()=>[P,k,x,B,u(h,{to:{name:f(g).PersonaPasscode},replace:""},{default:s(()=>[p(" Sampai ")]),_:1},8,["to"])]),_:1}))}});const I=v(T,[["__scopeId","data-v-5fa5dce5"]]);export{I as default};
