@@ -1,0 +1,1 @@
+.answers-grid[data-v-09d3bd7b]{width:70vw;display:flex;flex-wrap:wrap}.answers-grid .answer[data-v-09d3bd7b]{width:33vw;height:33vw;margin:1vw;transition:all .3s ease-in-out}.answers-grid .answer.selected[data-v-09d3bd7b]{opacity:1;scale:1.2}.answers-grid .answer.not-selected[data-v-09d3bd7b]{opacity:.5;scale:.7}
