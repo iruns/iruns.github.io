@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Send Request to PHP</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <button id="sendRequest">Send Request</button>
+    <div id="response"></div>
+    
+    <!-- Include Axios in your HTML -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <script>
+      // Base URL for your API
+      const baseUrl = 'https://iruns.id/ourchetype/api/progress.php'; // Replace with your actual API URL
+    
+      // Function to create a new row
+      function createProgress(progressData) {
+        axios.post(`${baseUrl}/progress`, progressData)
+          .then((response) => {
+            console.log('Progress created successfully:', response.data);
+          })
+          .catch((error) => {
+            console.error('Error creating progress:', error);
+          });
+      }
+    
+      // Function to partially update an existing row
+      function updateProgress(id, updatedData) {
+        axios.patch(`${baseUrl}/progress/${id}`, updatedData)
+          .then((response) => {
+            console.log('Progress updated successfully:', response.data);
+          })
+          .catch((error) => {
+            console.error('Error updating progress:', error);
+          });
+      }
+    
+      // Function to read an existing row
+      function readProgress(id) {
+        axios.get(`${baseUrl}/progress/id=${id}`)
+          .then((response) => {
+            console.log('Progress data:', response.data);
+          })
+          .catch((error) => {
+            console.error('Error reading progress:', error);
+          });
+      }
+      
+      function hello(id) {
+        axios.get(`https://iruns.id/ourchetype/api/api.php?order_id=${id}`)
+          .then((response) => {
+            console.log('Progress data:', response.data);
+          })
+          .catch((error) => {
+            console.error('Error reading progress:', error);
+          });
+      }
+      hello('test_initial')
+    
+      // Example usage:
+      
+    //   // Create a new progress record
+    //   const newProgressData = {
+    //     id: 'new_id',
+    //     version: 1.2,
+    //     // Add other properties here
+    //   };
+    //   createProgress(newProgressData);
+    
+    //   // Update an existing progress record (replace 'existing_id' with the actual ID)
+    //   const updatedProgressData = {
+    //     version: 1.3,
+    //     // Add other properties to update here
+    //   };
+    //   updateProgress('existing_id', updatedProgressData);
+    
+      // Read an existing progress record (replace 'existing_id' with the actual ID)
+    //   readProgress('test_initial');
+    </script>
+
+    <script>
+
+        // Define the URL of your API endpoint
+        const apiUrl = 'https://iruns.id/ourchetype/api/get_data.php'; // Replace with the actual URL
+        
+        document.getElementById("sendRequest").addEventListener("click", function() {
+            // Make a GET request to the API endpoint
+            axios.get(apiUrl)
+              .then(response => {
+                // Handle the successful response here
+                console.log('Response data:', response.data);
+                document.getElementById("response").innerHTML = response.data.message;
+              })
+              .catch(error => {
+                // Handle any errors that occurred during the request
+                console.error('Error:', error);
+              });
+        });
+    </script>
+</body>
+</html>
