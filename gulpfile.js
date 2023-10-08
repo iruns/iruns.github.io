@@ -2,9 +2,9 @@ const { src, dest, series } = require('gulp')
 const clean = require('gulp-dest-clean')
 const run = require('gulp-run')
 
-const source = 'C:/Data/Werk/MoneyMaking/Tujusemesta/Ourchetype/ourchetype-3/ourchetype-nuart'
-const destination = 'ourchetype-nuart'
-const destination2 = 'C:/Data/Werk/MoneyMaking/Tujusemesta/Ourchetype/ourchetype-3/ourchetype-nuart-dist'
+const source = 'C:/Data/Werk/MoneyMaking/Tujusemesta/Ourchetype/ourchetype-3/ourchetype-icad'
+const destination = 'ourchetype-icad'
+const destination2 = 'C:/Data/Werk/MoneyMaking/Tujusemesta/Ourchetype/ourchetype-3/ourchetype-dist'
 
 function build() {
   return run('npm --prefix ' + source + ' run build').exec()
